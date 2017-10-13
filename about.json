@@ -1,0 +1,19 @@
+{
+  "name": "Material Design",
+  "about_url": "https://github.com/vinkashq/discourse-material-design-theme",
+  "license_url": "https://github.com/vinkashq/vinkas-theme-discourse/raw/master/LICENSE.txt",
+   "color_schemes": {
+       "Blue Pink Light": {
+          "primary": "212121",
+          "secondary": "FFFFFF",
+          "tertiary": "0D47A1",
+          "quaternary": "F50057",
+          "header_background": "FFFFFF",
+          "header_primary": "424242",
+          "highlight": "FFEB3B",
+          "danger": "F44336",
+          "success": "4CAF50",
+          "love": "FF4081"
+        }
+    }
+}
