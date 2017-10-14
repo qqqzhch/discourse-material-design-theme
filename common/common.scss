@@ -12,4 +12,8 @@
 	.contents {
 		background-color: $header_background;
 	}
+
+	.list-controls #create-topic.btn {
+		background-color: $tertiary;
+	}
 }

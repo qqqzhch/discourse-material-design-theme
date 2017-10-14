@@ -4,8 +4,15 @@
 
 
 #main-outlet {
-	
-	.nav-pills > li > a {
-		background-color: $header_background;
-	}
+
+	.nav-pills > li {
+
+		> a {
+			background-color: $header_background;
+		}
+
+		&.active > a {
+			background-color: $quaternary;
+		}
+	} 
 }
