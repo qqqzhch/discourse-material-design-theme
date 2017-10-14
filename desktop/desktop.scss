@@ -1,7 +1,7 @@
 .list-controls .category-breadcrumb li.bullet > .dropdown-header {
-	background-color: transparent;
+	background-color: $header_background;
+	font-weight: bold;
 }
-
 
 #main-outlet {
 
@@ -9,10 +9,6 @@
 
 		> a {
 			background-color: $header_background;
-		}
-
-		&.active > a {
-			background-color: $quaternary;
 		}
 	} 
 }
