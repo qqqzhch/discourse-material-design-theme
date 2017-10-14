@@ -10,5 +10,9 @@
 		> a {
 			background-color: $header_background;
 		}
+
+		&.active > a {
+			background-color: $quaternary;
+		}
 	} 
 }
