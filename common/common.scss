@@ -5,12 +5,16 @@
 
 #main-outlet {
 
-	ol.category-breadcrumb li, .nav-pills > li > a, .list-controls .btn, .contents {
+	ol.category-breadcrumb li, .nav-pills > li > a, .list-controls .btn, .topic-list {
   		box-shadow: 0 1px 3px rgba(0,0,0,.26);
 	}
 
-	.contents {
+	.topic-list {
 		background-color: $header_background;
+
+		> thead {
+			background-color: $secondary;
+		}
 	}
 
 	.list-controls #create-topic.btn {
