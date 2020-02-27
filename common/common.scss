@@ -6,8 +6,9 @@
 #main-outlet {
 
 	ol.category-breadcrumb li, .nav-pills > li > a, .list-controls .btn, .topic-list {
-  		box-shadow: 0 1px 3px rgba(0,0,0,.26);
+  		// box-shadow: 0 1px 3px rgba(0,0,0,.26);
 	}
+	
 
 	.topic-list {
 		background-color: $header_background;
@@ -17,4 +18,10 @@
 		background-color: $tertiary;
 		color: $secondary;
 	}
+}
+#create-topic{
+	.btn .d-icon {
+		color: white;
+	}
+
 }
